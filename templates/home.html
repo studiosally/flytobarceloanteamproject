@@ -1,0 +1,17 @@
+<div class="container cover ">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="">
+                <p class="form-title">
+                    FLY TO BARCELONA</p>
+                <form class="login">
+                    <!--         <input type="number" placeholder="Your budget?" value=""> -->
+                    <input type="text" ng-model="budget" placeholder="Budget" required>
+                    <input id="city" type="text" ng-model="city" placeholder="Where are you?" required>
+                    <button type="submit" class="btn btn-success buttonhome" ng-click="getflights(city, departureDate, budget)">Let's fly!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="posted-by"><p>Team project developed by Skylab Coders: Bernat, Wally & Carles</p></div> -->
+</div>
